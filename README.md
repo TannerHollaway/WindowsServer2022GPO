@@ -8,7 +8,9 @@ An organizational password policy enforces consistent password complexity, lengt
 
 Before a domain-wide password policy can be created, **Group Policy Management (GPMC)** must be available within an Active Directory domain.
 
-![Install GPMC / AD DS](insert-gif-here)
+<img src="https://github.com/user-attachments/assets/491bda20-5e95-445d-9082-231f658d5ccf" alt="Install AD DS" width="900">
+
+---
 
 When this lab environment was initially deployed, the server was installed as a standalone system. As a result, authentication was limited to local user accounts.
 
@@ -26,7 +28,10 @@ This is a three-step process:
 2. Promote the server to a Domain Controller  
 3. Log in using the correct domain account  
 
-![AD DS Installation and Promotion](insert-gif-here)
+
+<img src="https://github.com/user-attachments/assets/36055359-2cc9-400c-8335-822e9d55fd80" alt="Install AD DS" width="900">
+
+
 
 *(The GIF quality is not ideal but demonstrates the process flow.)*
 
@@ -40,7 +45,7 @@ Password policies configured at the domain level apply uniformly to all domain u
 
 At this stage, the domain password policy is created and implemented.
 
-![Password Policy Configuration](insert-gif-here)
+<img src="https://github.com/user-attachments/assets/6177e6bc-6226-4652-a3d0-4afbdc469a3f" alt="Install AD DS" width="900">
 
 ---
 
@@ -49,3 +54,10 @@ At this stage, the domain password policy is created and implemented.
 This configuration ensures that all domain users follow consistent password security standards.
 
 Centralizing password policy enforcement through Active Directory reduces the risk of weak credentials and simplifies administrative control across the organization.
+
+
+
+
+
+
+
